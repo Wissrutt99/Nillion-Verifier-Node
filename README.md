@@ -39,7 +39,7 @@ cat ~/nillion/accuser/credentials.json
 Wait 30-60 mins to continue with the steps below. The secret verification is designed wait for a period of time before fully registering the accuser
 
 ```bash
-docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5105545
+docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5125112
 ```
 
 ### check Logs
