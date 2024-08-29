@@ -2,7 +2,7 @@
 Nillion for Linux or WSL
 
 - Add [Nillion Chain](https://chains.keplr.app/) to Keplr
-- Search for `Nillion` in Keplr wallet, you will get `Nillion address`
+- Search `Nillion` in Keplr wallet, you will get `Nillion address`
 - Get $NIL Token : [Faucet site](https://faucet.testnet.nillion.com/)
 
 
@@ -28,6 +28,10 @@ mkdir -p nillion/accuser && docker run -v ./nillion/accuser:/var/tmp nillion/ret
 - Visit [Faucet site](https://faucet.testnet.nillion.com/) to request faucet in your `Account_id` you copied earlier
 
 - back to Terminal run commands below for get your accuser wallet private key
+
+```bash
+cat ~/nillion/accuser/credentials.json
+```
 
 - Backup you private key
 
